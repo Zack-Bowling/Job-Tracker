@@ -2,7 +2,8 @@
 
 A simple web application to organize and track your job applications in one place. Built with **React**, **Vite**, **Tailwind CSS**, and **Firebase** for authentication and data storage.
 
-![screenshot](screenshot.png) <!-- Add a screenshot if available -->
+![screenshot](![image](https://github.com/user-attachments/assets/4d831a93-d060-4a9e-986b-4bb9e3f98475)
+) <!-- Add a screenshot if available -->
 
 ---
 
