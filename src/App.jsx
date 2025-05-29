@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Register from './components/Register';
 import ProtectedRoute from './components/ProtectedRoute';
+import EditApplication from './pages/EditApplication';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/applications/:id" element={<ApplicationDetail />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/edit/:id" element={<ProtectedRoute><EditApplication /></ProtectedRoute>} />
           </Routes>
         </div>
       </div>

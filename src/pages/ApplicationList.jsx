@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { db, auth } from '../firebase';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
 
 function ApplicationsList() {
   const [applications, setApplications] = useState([]);
@@ -43,7 +44,15 @@ function ApplicationsList() {
                 <div className="text-blue-700">Status: {app.status}</div>
                 <div className="text-blue-700">Application Date: {app.date}</div>
                 <div className="text-blue-700">Notes: {app.notes || 'No notes'}</div>
+              
+                <Link
+                  to={`/edit/${app.id}`}
+                  className="mt-2 text-blue-600 hover:underline"
+                >Edit</Link>
+              
+              
               </li>
+              
             ))}
           </ul>
         )}
