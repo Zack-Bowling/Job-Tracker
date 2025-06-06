@@ -18,57 +18,9 @@ A simple web application to organize and track your job applications in one plac
 - Protected routes for authenticated users
 
 ---
+## Access Here
 
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or newer recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Clone the Repository
-
-```sh
-git clone https://github.com/Zack-Bowling/Job-Tracker.git
-cd Job-Tracker
-```
-
-### Install Dependencies
-
-```sh
-npm install
-# or
-yarn install
-```
-
-### Firebase Setup
-
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
-2. Enable **Authentication** (Email/Password).
-3. Create a **Firestore** database.
-4. Obtain your Firebase project configuration and add it to a `.env` file:
-
-```env
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-
-> **Note**: Never commit your `.env` file or secrets.
-
-### Start the Development Server
-
-```sh
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) to view the app.
+https://jobapptracker-2df10.web.app/
 
 ---
 
